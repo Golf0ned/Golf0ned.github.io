@@ -1,0 +1,116 @@
+:root {
+  --background-color-1: rgb(31, 31, 31);
+  --background-color-2: rgb(15, 30, 15);
+  --main-color-1: rgb(190, 190, 190);
+  --main-color-2: rgb(255, 255, 255);
+  --accent-color-1: rgb(0, 146, 75);
+  --accent-color-2: rgb(0, 255, 132);
+  --accent-color-3: rgb(198, 255, 227);
+  --secondary-color-1: rgb(0, 146, 127);
+  --secondary-color-2: rgb(0, 255, 221);
+}
+
+body {
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25em;
+  letter-spacing: 0em;
+  color: var(--main-color-1);
+
+  background-color: var(--background-color-1);
+
+}
+
+h1,
+h2 {
+  margin-top: 1em;
+  font-size: 3em;
+  letter-spacing: .03em;
+}
+
+p {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+h1,
+h2,
+strong {
+  color: var(--main-color-2);
+}
+
+h1 {
+  text-align: center;
+}
+
+a:link,
+a:visited {
+  transition: .3s;
+  color: var(--accent-color-1)
+}
+
+a:hover {
+  transition: .3s;
+  color: var(--accent-color-2)
+}
+
+a:active {
+  color: var(--accent-color-3)
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 2px solid var(--accent-color-2);
+  line-height: 2;
+  background-color: var(--background-color-2);
+  overflow: hidden;
+}
+
+.navbar li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.navbar a, .linksButton {
+  display: block;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+}
+
+.navbar a:hover,
+.linksDrop:hover .linksButton {
+  background-color: var(--accent-color-2);
+  color: var(--main-color-2);
+}
+
+li.linksDrop {
+  display: inline-block;
+}
+
+.linksButton {
+  display: inline-block;
+  text-align: right;
+  min-width: 2em;
+}
+
+.linksDrop:hover {
+  background-color: var(--accent-color-3);
+  color: var(--main-color-1);
+}
+
+.linksButton-content {
+  display: none;
+  position: relative;
+  text-align: right;
+}
+
+.linksDrop:hover .linksButton-content {
+  display: block;
+}
