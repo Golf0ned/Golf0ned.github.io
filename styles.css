@@ -14,22 +14,30 @@ body {
   margin: 0 auto;
   line-height: 1.5;
   font-family: 'Lato', sans-serif;
-  font-size: 1.25em;
+  font-size: 1.5em;
   letter-spacing: 0em;
   color: var(--main-color-1);
-
   background-color: var(--background-color-1);
 
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  margin-left: 0.7em;
+  font-size: 1.5em;
 }
 
 h1,
 h2 {
   margin-top: 1em;
-  font-size: 3em;
   letter-spacing: .03em;
 }
 
 p {
+  max-width: 50em;
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -78,39 +86,16 @@ a:active {
   float: left;
 }
 
-.navbar a, .linksButton {
-  display: block;
+.navbar a{
   padding-left: 0.8em;
   padding-right: 0.8em;
 }
 
-.navbar a:hover,
-.linksDrop:hover .linksButton {
+.navbar a:hover{
   background-color: var(--accent-color-2);
   color: var(--main-color-2);
 }
 
-li.linksDrop {
-  display: inline-block;
-}
-
-.linksButton {
-  display: inline-block;
-  text-align: right;
-  min-width: 2em;
-}
-
-.linksDrop:hover {
-  background-color: var(--accent-color-3);
-  color: var(--main-color-1);
-}
-
-.linksButton-content {
-  display: none;
-  position: relative;
-  text-align: right;
-}
-
-.linksDrop:hover .linksButton-content {
-  display: block;
+.topIcon {
+  filter: invert(1);
 }
