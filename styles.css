@@ -98,4 +98,13 @@ a:active {
 
 .topIcon {
   filter: invert(1);
+  vertical-align: text-bottom;
+}
+
+.floatleft{
+  float: left;
+}
+
+.floatright{
+  float: right;
 }
