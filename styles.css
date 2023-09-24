@@ -43,7 +43,7 @@ body {
   height: 13em;
   border-radius: 0.5em;
   margin-top: 1.5em;
-  margin-right: 0.8em;
+  margin-right: 1.2em;
   background-color: var(--background-color-3);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -59,12 +59,17 @@ body {
 }
 
 .card-header {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.card-footer {
+  margin-top: 1em;
   text-align: center;
 }
 
 .card-text {
   font-size: 0.8em;
-  margin-top: 1em;
 }
 
 h1 {
