@@ -32,6 +32,12 @@ body {
   justify-content: left;
 }
 
+.container-outer {
+  max-width: 40em;
+  margin: auto;
+  padding: 1em;
+}
+
 .spacer {
   width: 10em;
 }
