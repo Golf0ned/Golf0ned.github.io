@@ -11,6 +11,10 @@
   --secondary-color-2: rgb(0, 255, 221);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto;
   line-height: 1.5;
