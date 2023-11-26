@@ -1,5 +1,6 @@
 # Golf0ned.github.io
 GitHub repository for my personal website (https://golf0ned.github.io/).  
-Please don't look here. It's messy and scary.  
+
+This is a constantly WIP project. All code (is HTML or CSS a programming language?) is open-sourced.
   
 Icons from feather.
