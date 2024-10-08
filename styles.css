@@ -1,14 +1,12 @@
 :root {
-  --background-color-1: rgb(30, 30, 30);
-  --background-color-2: rgb(15, 30, 15);
-  --background-color-3: rgb(22, 22, 22);
-  --main-color-1: rgb(190, 190, 190);
-  --main-color-2: rgb(255, 255, 255);
-  --accent-color-1: rgb(0, 146, 75);
-  --accent-color-2: rgb(0, 255, 132);
-  --accent-color-3: rgb(198, 255, 227);
-  --secondary-color-1: rgb(0, 146, 127);
-  --secondary-color-2: rgb(0, 255, 221);
+  --background-color-1: rgb(30, 30, 46);
+  --background-color-2: rgb(17, 17, 27);
+  --background-color-3: rgb(17, 17, 27);
+  --main-color-1: rgb(166, 173, 200);
+  --main-color-2: rgb(205, 214, 244);
+  --accent-color-1: rgb(180, 190, 254);
+  --accent-color-2: rgb(203, 166, 247);
+  --accent-color-3: rgb(148, 226, 213);
 }
 
 html{
